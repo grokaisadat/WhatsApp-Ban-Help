@@ -1,0 +1,27 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.sadatmobile.whatsappbanhelp'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.sadatmobile.whatsappbanhelp"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    // Pure lightweight WebView app with zero external bloat
+}
