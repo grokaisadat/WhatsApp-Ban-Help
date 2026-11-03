@@ -1,6 +1,6 @@
 # WhatsApp Ban Help — by Sadat Mobile
 
-A mobile-friendly, lightweight web application designed for mobile shopkeepers and customers to quickly prepare a polite, honest, and official appeal to WhatsApp Support when a phone number is banned.
+A mobile-friendly, lightweight Progressive Web Application (PWA) designed for mobile shopkeepers and customers to quickly prepare a polite, honest, and official appeal to WhatsApp Support when a phone number is banned.
 
 - **Live Web App**: [https://grokaisadat.github.io/WhatsApp-Ban-Help/index.html](https://grokaisadat.github.io/WhatsApp-Ban-Help/index.html)
 - **Source Repository**: [https://github.com/grokaisadat/WhatsApp-Ban-Help](https://github.com/grokaisadat/WhatsApp-Ban-Help)
@@ -15,11 +15,33 @@ A mobile-friendly, lightweight web application designed for mobile shopkeepers a
 
 ---
 
+## 📲 How to Install on Your Device
+
+This web app is a full **Progressive Web App (PWA)** and can be installed directly onto your device:
+
+### 1. On Windows PC (Instant 1-Click Desktop Shortcut)
+- **Method A**: Double-click **`install-on-desktop.bat`** in this folder. It automatically creates a shortcut named **WhatsApp Ban Help** on your Desktop!
+- **Method B**: Open `index.html` in Google Chrome or Microsoft Edge. Click the **Install icon** on the right side of the URL address bar, or click the yellow **"Install App"** button in the header.
+
+### 2. On Android Phones
+1. Open [https://grokaisadat.github.io/WhatsApp-Ban-Help/index.html](https://grokaisadat.github.io/WhatsApp-Ban-Help/index.html) in **Google Chrome**.
+2. Tap the **three dots menu (⋮)** in the top right.
+3. Tap **"Install app"** or **"Add to Home screen"**.
+4. The app icon will appear in your apps drawer and home screen. It works offline without needing internet!
+
+### 3. On iPhone / iPad (iOS)
+1. Open the link in **Safari**.
+2. Tap the **Share button** (square with arrow pointing up 📤).
+3. Tap **"Add to Home Screen"**.
+4. Tap **Add** in the top right.
+
+---
+
 ## Features
 
 1. **Brand Identity & Touch-Friendly Design**:
    - Clean green palette aligned with official WhatsApp aesthetics.
-   - Header with prominent "WhatsApp Ban Help" branding and "by Sadat Mobile" badge.
+   - Header with prominent "WhatsApp Ban Help" branding, "by Sadat Mobile" badge, and 1-tap **"Install App"** button.
    - Large touch targets and high-contrast buttons designed for low-literacy users.
 
 2. **Simple Appeal Generator Form**:
@@ -58,20 +80,10 @@ A mobile-friendly, lightweight web application designed for mobile shopkeepers a
 
 ---
 
-## How to Run & Deploy
+## How to Deploy to GitHub Pages
 
-This project is built with vanilla HTML5, CSS3, and JavaScript, entirely self-contained in `index.html`. It requires **zero build steps** and no server backend.
-
-### Run Locally
-1. Double-click or open `index.html` in any web browser (Chrome, Edge, Firefox, Safari).
-2. Or use any local static server:
-   ```bash
-   npx serve .
-   ```
-
-### Deploy to GitHub Pages
-1. Push `index.html` and `README.md` to `https://github.com/grokaisadat/WhatsApp-Ban-Help`.
-2. Go to repository **Settings** &rarr; **Pages**.
+1. Push all files to `https://github.com/grokaisadat/WhatsApp-Ban-Help`.
+2. In GitHub, go to repository **Settings** &rarr; **Pages**.
 3. Under **Build and deployment**, select **Source: Deploy from a branch** &rarr; `main` branch &rarr; `/ (root)` folder.
 4. Click **Save**. The app will be live at:
    `https://grokaisadat.github.io/WhatsApp-Ban-Help/index.html`

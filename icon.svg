@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="waGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#075E54" />
+      <stop offset="100%" stop-color="#128C7E" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="240" fill="url(#waGrad)" stroke="#25D366" stroke-width="12" />
+  <!-- WhatsApp Shield Outline -->
+  <path d="M256 90 L120 150 v90 c0 83 58 161 136 182 c78 -21 136 -99 136 -182 v-90 Z" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linejoin="round" />
+  <!-- Inner Shield Fill -->
+  <path d="M256 108 L136 162 v78 c0 73 51 142 120 160 c69 -18 120 -87 120 -160 v-78 Z" fill="rgba(37, 211, 102, 0.25)" />
+  <!-- Checkmark -->
+  <path d="M220 280 L180 240 l-20 20 l60 60 l140 -140 l-20 -20 Z" fill="#25D366" stroke="#FFFFFF" stroke-width="4" />
+  <!-- Sub-label text -->
+  <text x="256" y="475" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">SADAT MOBILE</text>
+</svg>
