@@ -29,3 +29,4 @@ echo Opening the app now in your browser...
 start "" "%~dp0index.html"
 echo.
 pause
+

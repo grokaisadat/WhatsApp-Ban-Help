@@ -12,3 +12,4 @@ Write-Host "SUCCESS: Created $shortcutPath"
 
 # Also launch the web app in the default browser
 Start-Process "C:\Users\Sadat Mobile Instit\Desktop\WhatsApp Ban Help\index.html"
+

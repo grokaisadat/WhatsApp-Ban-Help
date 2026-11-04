@@ -32,3 +32,4 @@ jobs:
         with:
           name: WhatsApp-Ban-Help-APK
           path: android-app/app/build/outputs/apk/debug/*.apk
+
